@@ -1,0 +1,68 @@
+# ─────────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ─────────────────────────────────────────────
+# Dataset / Large Files
+# ─────────────────────────────────────────────
+data/all-mias/
+data/processed/
+
+# Model files
+*.h5
+*.keras
+*.ckpt
+
+# TensorFlow / Keras logs
+logs/
+tensorboard_logs/
+
+# Hyperparameter tuner outputs
+tuner_results/
+
+# Evaluation outputs
+evaluation/results/
+
+# Training checkpoints
+checkpoints/
+
+# Cache
+.cache/
+
+# Environment variables
+.env
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Pytest
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Temporary files
+*.tmp
+*.temp
